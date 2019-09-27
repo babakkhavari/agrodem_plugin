@@ -43,3 +43,39 @@ Test repository for the Agrodem plugin
 9.	After the plugin is installed it appear under the "Plugins" menu with the name HRSL Clustering. It is now ready to use!
 	
 	![image7](assets/installation/img/image7.jpg)
+
+## Using the plugin
+
+1.	Open the plugin in QGIS
+
+![image1](assets/running/img/image1.JPG)
+
+2.	Add necessary input layers
+
+* River network (lines or multilines)
+* Reservoirs (polygons)
+* The admin boundaries layer for the area of interest (polygons) ([GADM](https://gadm.org/))
+
+**Note** Apart from these layers you will also need a csv describing the agricultural areas in your area of interest. This csv should **not** be added into QGIS, instead you should select it using the button hihglighted below. The input csv should contain the following information:
+
+1. **pixel** - Unique id for each pixel of the agricultural area
+2. **State** - Name of the dissagregated states 
+3. **lon** - Longitude (in EPSG:4326)
+4. **lat** - Latitude (in EPSG:4326)
+5. **Crop** - Crop in area
+6. **Fraction** - The Fraction that is cultivated
+7. **CropArea** - Area occupied by crop 
+
+
+
+![image2](assets/running/img/image2.JPG)
+
+3.	Run the plugin
+
+If succesful, the resulting layers will be added in your workspace. Three additional columns will be added to the ones mentioned above:
+
+1. **elevation** - Elevation of closest surface water point [m]
+2. **sw_dist** - Distance to closest surface water [km]
+3. **sw_suitabilit** - Factor describing suitability of using the closest surface water point [1 = suitable, 9999 = not suitable] 
+
+Sample input/output files are available for Mozambique
