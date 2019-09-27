@@ -79,3 +79,13 @@ If succesful, the resulting layers will be added in your workspace. Three additi
 3. **sw_suit** - Factor describing suitability of using the closest surface water point [1 = suitable, 9999 = not suitable] 
 
 Sample input/output files are available for Mozambique [here](Mozambique%20sample)
+
+## Cautions
+
+* As of October 2019 The plugin can only be run on QGIS 3.4 (latest stable version). Note that newer or older version of QGIS will not work
+
+## Supplementary material
+
+* For any bugs reported please raise an issue on this repository
+
+* For any additional information please contact the [KTH team](http://www.onsset.org/contact--forum.html)
