@@ -12,7 +12,7 @@ Test repository for the Agrodem plugin
 	- qgis
 	- datetime
 
-### Adding plugin on QGIS
+### Adding plugin in QGIS
 
 1.	Download the zipped plugin folder onto your computer.
 2.	Open QGIS Desktop (proper version)
