@@ -48,7 +48,7 @@ Test repository for the Agrodem plugin
 
 1.	Open the plugin in QGIS
 
-![image1](assets/running/img/image1.JPG)
+![image1](assets/running/img/image1.jpg)
 
 2.	Add necessary input layers
 
@@ -68,7 +68,7 @@ Test repository for the Agrodem plugin
 
 
 
-![image2](assets/running/img/image2.JPG)
+![image2](assets/running/img/image2.jpg)
 
 3.	Run the plugin
 
