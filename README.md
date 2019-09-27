@@ -40,7 +40,7 @@ Test repository for the Agrodem plugin
 	
 	![image6](assets/installation/img/image6.jpg)
 
-9.	After the plugin is installed it appear under the "Plugins" menu with the name HRSL Clustering. It is now ready to use!
+9.	After the plugin is installed it appear under the "Plugins" menu with the name Agrodem. It is now ready to use!
 	
 	![image7](assets/installation/img/image7.jpg)
 
