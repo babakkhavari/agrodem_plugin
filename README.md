@@ -76,6 +76,6 @@ If succesful, the resulting layers will be added in your workspace. Three additi
 
 1. **elevation** - Elevation of closest surface water point [m]
 2. **sw_dist** - Distance to closest surface water [km]
-3. **sw_suitabilit** - Factor describing suitability of using the closest surface water point [1 = suitable, 9999 = not suitable] 
+3. **sw_suit** - Factor describing suitability of using the closest surface water point [1 = suitable, 9999 = not suitable] 
 
 Sample input/output files are available for Mozambique
