@@ -55,6 +55,7 @@ Test repository for the Agrodem plugin
 * River network (lines or multilines)
 * Reservoirs (polygons)
 * The admin boundaries layer for the area of interest (polygons) ([GADM](https://gadm.org/))
+* Digital Elevation Map
 
 **Note** Apart from these layers you will also need a csv describing the agricultural areas in your area of interest. This csv should **not** be added into QGIS, instead you should select it using the button hihglighted below. The input csv should contain the following information:
 
